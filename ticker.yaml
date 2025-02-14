@@ -1,0 +1,165 @@
+show-summary: true
+show-tags: true
+show-fundamentals: false
+show-separator: true
+show-holdings: true
+interval: 5
+currency: USD
+currency-summary-only: false
+watchlist:
+lots:
+  - symbol: "AAPL"
+    quantity: 65.68
+    unit_cost: 79.31
+  - symbol: "ADBE"
+    quantity: 139
+    unit_cost: 424.33
+  - symbol: "AMD"
+    quantity: 55
+    unit_cost: 154.73
+  - symbol: "AMZN"
+    quantity: 62
+    unit_cost: 98.59
+  - symbol: "APPS"
+    quantity: 91
+    unit_cost: 22.52
+  - symbol: "ARKQ"
+    quantity: 60
+    unit_cost: 46.53
+  - symbol: "BUZZ"
+    quantity: 30.42
+    unit_cost: 24.92
+  - symbol: "CRM"
+    quantity: 2
+    unit_cost: 240.90
+  - symbol: "CVS"
+    quantity: 26.96
+    unit_cost: 68.65
+  - symbol: "DIS"
+    quantity: 47.15303
+    unit_cost: 107.60
+  - symbol: "DXYZ"
+    quantity: 82
+    unit_cost: 30.11
+  - symbol: "FLR"
+    quantity: 16
+    unit_cost: 10.86
+  - symbol: "GE"
+    quantity: 13.19
+    unit_cost: 59.41
+  - symbol: "GEHC"
+    quantity: 4.363
+    unit_cost: 66.01
+  - symbol: "GEV"
+    quantity: 3
+    unit_cost: 61.08
+  - symbol: "GSK"
+    quantity: 13.152
+    unit_cost: 39.88
+  - symbol: "HLN"
+    quantity: 35.948
+    unit_cost: 7.48
+  - symbol: "HOOD"
+    quantity: 16
+    unit_cost: 31.73
+  - symbol: "IBRX"
+    quantity: 21
+    unit_cost: 4.20
+  - symbol: "INTC"
+    quantity: 101
+    unit_cost: 41.93
+  - symbol: "ITA"
+    quantity: 40
+    unit_cost: 122.91
+  - symbol: "LAZR"
+    quantity: 97
+    unit_cost: 13.15
+  - symbol: "LCID"
+    quantity: 12
+    unit_cost: 28.01
+  - symbol: "LUV"
+    quantity: 117
+    unit_cost: 47.22
+  - symbol: "MRNA"
+    quantity: 41
+    unit_cost: 82.83
+  - symbol: "MSFT"
+    quantity: 17.47
+    unit_cost: 239.90
+  - symbol: "NFLX"
+    quantity: 59
+    unit_cost: 263.37
+  - symbol: "NVDA"
+    quantity: 129
+    unit_cost: 88.83
+  - symbol: "PYPL"
+    quantity: 554
+    unit_cost: 95.14
+  - symbol: "RIVN"
+    quantity: 100
+    unit_cost: 11.02
+  - symbol: "RKLB"
+    quantity: 100
+    unit_cost: 5.43
+  - symbol: "RMTI"
+    quantity: 200
+    unit_cost: 2.07
+  - symbol: "SBUX"
+    quantity: 7.7
+    unit_cost: 77.82
+  - symbol: "SCHX"
+    quantity: 200
+    unit_cost: 17.98
+  - symbol: "SOFI"
+    quantity: 60
+    unit_cost: 6.58
+  - symbol: "STLA"
+    quantity: 68.77
+    unit_cost: 15.35
+  - symbol: "T"
+    quantity: 67.80
+    unit_cost: 18.73
+  - symbol: "TGT"
+    quantity: 23.54
+    unit_cost: 166.98
+  - symbol: "TJX"
+    quantity: 75.20
+    unit_cost: 85.15
+  - symbol: "UAL"
+    quantity: 21
+    unit_cost: 48.60
+  - symbol: "U"
+    quantity: 66
+    unit_cost: 72.47
+  - symbol: "VGT"
+    quantity: 10
+    unit_cost: 540.28
+  - symbol: "VMEO"
+    quantity: 218
+    unit_cost: 9.03
+  - symbol: "VWAGY"
+    quantity: 60.63
+    unit_cost: 13.29
+  - symbol: "VZ"
+    quantity: 59.56
+    unit_cost: 44.11
+  - symbol: "WBD"
+    quantity: 109
+    unit_cost: 8.35
+  - symbol: "WMT"
+    quantity: 52.56
+    unit_cost: 47.28
+  - symbol: "WTAI"
+    quantity: 33.14
+    unit_cost: 17.858
+groups:
+  - name: crypto
+    watchlist:
+      - SHIB-USD
+      - VGX-USD
+    holdings:
+      - symbol: SOL1-USD
+        quantity: 17
+        unit_cost: 159.10
+colors:
+  text-label: "#00ffff"
