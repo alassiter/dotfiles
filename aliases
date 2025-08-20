@@ -1,0 +1,24 @@
+# utilities
+alias ll="ls -la"
+alias be="bundle exec"
+alias dc="docker compose"
+alias clearlog='truncate -s 0 "$1"'
+alias resource="source ~/.zshrc"
+
+# filesystem
+alias home="cd ~"
+alias dev="cd ~/Development"
+alias learn="cd ~/Learn"
+alias mi="dev && cd petscreening-mi"
+alias ltr="dev && cd pet-screening"
+alias mi="dev && cd off-leash"
+
+# git
+alias gs="git status"
+alias gg="git grep"
+alias git-ssh='git remote set-url origin "$(git remote get-url origin | sed -E '\''s,^https://([^/]*)/(.*)$,git@\1:\2,'\'')"'
+alias git-https='git remote set-url origin "$(git remote get-url origin | sed -E '\''s,^git@([^:]*):/*(.*)$,https://\1/\2,'\'')"'
+alias glo='git log --pretty=format:"%C(yellow)%h %C(cyan)%>(12)%ad %Cgreen%<(7)%aN%Cred%d %Creset%s"'
+
+# Kubernetes
+alias kk="kubectl"
